@@ -42,7 +42,7 @@ The semantic layer utilizes dbt MetricFlow to define standardized metrics and di
 2. **Run the models**
    Execute the data transformations to build the staging and mart tables:
    ```bash
-   dbt run
+   dbt build && dbt run
    ```
 
 3. **Test the models**
